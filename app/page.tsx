@@ -16,10 +16,6 @@ export default function Home() {
               <span className="text-accent">Kingsley Udeh</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              {/* I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
-              I'm a skilled software developer with experience in TypeScript and
-              JavaScript, and their related frameworks (e.g React, Next). */}
               I create user-centric digital solutions through human-centered design principles while leveraging my meta skills 
               in critical thinking and problem-solving. My work implements advanced optimization 
               techniques for exceptional performance, 

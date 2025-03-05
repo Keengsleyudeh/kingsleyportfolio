@@ -21,17 +21,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+234) 903 635 9000",
+    description: "(+234) 916 873 0140",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "cikenduhill@gmail.com",
+    description: "keengleyudeh@gmail.com",
   },
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "FUTO",
+    description: "Lagos",
   },
 ];
 
@@ -65,9 +65,9 @@ const Page = () => {
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         {
           from_name: `${form.firstname} ${form.lastname}`,
-          to_name: "Hillary",
+          to_name: "Kingsley",
           from_email: form.email,
-          to_email: "cikenduhill@gmail.com",
+          to_email: "keengsleyudeh@gmail.com",
           message: form.message,
           service: form.service,
           number: form.phone,
@@ -116,9 +116,7 @@ const Page = () => {
               <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
               <p className="text-white/60">
                 I&apos;m always excited to take on new challenges and
-                collaborate on innovative projects. Whether you need a
-                blockchain developer, a fullstack web developer, or a mobile app
-                developer, I&apos;m here to help turn your ideas into reality.
+                collaborate on innovative projects.
                 With my diverse skill set and passion for technology, I am
                 committed to delivering high-quality solutions that meet your
                 needs.
@@ -172,9 +170,6 @@ const Page = () => {
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
                     <SelectItem value="web">Website Development</SelectItem>
-                    <SelectItem value="blockchain">
-                      Blockchain Development
-                    </SelectItem>
                     <SelectItem value="front">Front-End Development</SelectItem>
                     <SelectItem value="back">Back-End Development</SelectItem>
                     <SelectItem value="mobile">Mobile Development</SelectItem>

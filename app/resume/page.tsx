@@ -23,7 +23,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+234) 916 873 30140",
+      fieldValue: "(+234) 916 873 0140",
     },
     {
       fieldName: "Experience",
@@ -36,6 +36,10 @@ const about = {
     {
       fieldName: "Email",
       fieldValue: "keengsleyudeh@gmail.com",
+    },
+    {
+      fieldName: "Freelance",
+      fieldValue: "Available",
     },
   ],
 };
