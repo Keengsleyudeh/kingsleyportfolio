@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hillary | Portfolio",
+  title: "Kingsley | Portfolio",
   description: "",
   icons: {
     icon: "/logo.svg",

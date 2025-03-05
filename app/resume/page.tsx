@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiTypescript } from "react-icons/si";
 import {
   FaCss3,
   FaJs,
@@ -10,6 +10,7 @@ import {
   FaNodeJs,
   FaHtml5,
   FaFigma,
+  FaPython,
 } from "react-icons/fa";
 
 const about = {
@@ -18,15 +19,15 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Hillary Chikendu",
+      fieldValue: "Kingsley Udeh",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+234) 903 635 9000",
+      fieldValue: "(+234) 916 873 30140",
     },
     {
       fieldName: "Experience",
-      fieldValue: "5+ Years",
+      fieldValue: "4+ Years",
     },
     {
       fieldName: "Nationality",
@@ -34,11 +35,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "cikenduhill@gmail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "available",
+      fieldValue: "keengsleyudeh@gmail.com",
     },
   ],
 };
@@ -47,22 +44,27 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "As a versatile developer, I have extensive experience in blockchain development on Ethereum and Solana, where I've developed smart contracts and dApps. In frontend development, I use ReactJS and NextJS to build dynamic, responsive web applications. My backend work with Node.js and NestJS involves designing RESTful APIs, managing databases, and developing scalable applications. Additionally, I've created cross-platform mobile apps with React Native, focusing on performance and user experience. As a website developer, I craft responsive websites using HTML, CSS, and JavaScript, implement content management systems, and deliver customized web solutions. My multifaceted experience ensures high-quality, comprehensive solutions across various development domains.",
+"Results-driven Frontend Developer with 4+ years of experience building scalable, high-performance websites, web applications and PWAs. Proficient in React, Next.js, TypeScript, and JavaScript, with expertise in state management, UI frameworks, and performance optimization. Experienced in integrating APIs, maintaining design consistency, and enhancing user experience",
   items: [
     {
-      company: "SuperteamNG",
-      position: "Blockchain Developer",
-      duration: "2023 - present",
+      company: "Ceed Venture Studio",
+      position: "Frontend Developer",
+      duration: "2024 - present",
     },
     {
-      company: "Inclusive Talks",
-      position: "Fullstack Developer",
-      duration: "2023 - present",
+      company: "Styloza",
+      position: "Lead Frontend Developer",
+      duration: "2024",
     },
     {
-      company: "Theraswift  Inc",
-      position: "Front-End Developer",
-      duration: "2023 - present",
+      company: "Smart World Research Hub",
+      position: "Software Developer",
+      duration: "2024",
+    },
+    {
+      company: "Motenrise",
+      position: "Frontend Developer",
+      duration: "2022 - 2023",
     },
   ],
 };
@@ -71,22 +73,28 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "I am currently pursuing a degree in Electrical Electronics Engineering at the Federal University Of Technology Owerri, where I am building a strong foundation in engineering principles and technologies. Additionally, I have studied fullstack development at Zero to Mastery Academy, gaining practical skills in both frontend and backend development. This combination of formal education and specialized training equips me with a diverse skill set to tackle complex projects in various domains.",
+    "I graduated with a First Class Honors (4.7/5.0) from the Department of Mechatronics Engineering, Federal University of Technology, Owerri where i exceled in relevant software development courses. I also enrolled in other software development courses to upskill",
+    // "I am currently pursuing a degree in Electrical Electronics Engineering at the Federal University Of Technology Owerri, where I am building a strong foundation in engineering principles and technologies. Additionally, I have studied fullstack development at Zero to Mastery Academy, gaining practical skills in both frontend and backend development. This combination of formal education and specialized training equips me with a diverse skill set to tackle complex projects in various domains.",
   items: [
     {
-      institution: "Zero To Mastery Academy",
-      degree: "Senior Fullstack Developer",
-      duration: "2019 - presents",
-    },
-    {
-      institution: "SuperteamNG",
-      degree: "Blockchain Developer",
-      duration: "2023 - present",
-    },
-    {
       institution: "Federal University Of Tecnhnology Owerri",
-      degree: "Electrical/Electronics Engineering",
-      duration: "2021 - present",
+      degree: "Mechatronics Engineering",
+      duration: "2018 - 2024",
+    },
+    {
+      institution: "MDEEG Academy",
+      degree: "Frontend Development",
+      duration: "2024",
+    },
+    {
+      institution: "ALX",
+      degree: "Front-End Web Pro-Development",
+      duration: "2024",
+    },
+    {
+      institution: "Udemy",
+      degree: "Software Development",
+      duration: "2020 - 2021",
     },
   ],
 };
@@ -96,30 +104,20 @@ const skills = {
   description: [
     {
       name: "Programming Languages",
-      content: "JavaScript, TypeScript, Rust, HTML, CSS",
+      content: "JavaScript, TypeScript, Python, HTML, CSS",
     },
     {
-      name: "Blockchain Development",
-      content: [
-        "Ethereum, Solana, Smart Contracts, Decentralized Applications",
-      ],
+      name: "Software Development",
+      content: "ReactJS, Redux, NextJS, HTML5, TailwindCSS, SCSS, NodeJs, Supabase, Firebase",
     },
-    {
-      name: "Frontend Development",
-      content: "ReactJS, Redux, NextJS, HTML5, TailwindCSS",
-    },
-    {
-      name: "Backend Development",
-      content:
-        "Node.js, NestJS, RESTful APIs, Database Management (MongoDB, PostgreSQL)",
-    },
-    {
-      name: "Mobile Development",
-      content: "React Native, Cross-Platform Mobile Applications",
-    },
+
     {
       name: "Tools and Technologies",
-      content: "Git, Docker, Kubernetes, CI/CD, Agile/Scrum Methodologies",
+      content: "Git, Docker",
+    },
+    {
+      name: "Prototyping",
+      content: "Miro, Figma",
     },
     {
       name: "Soft Skills",
@@ -131,11 +129,13 @@ const skills = {
     { icon: <FaHtml5 />, name: "html %" },
     { icon: <FaCss3 />, name: "css 3" },
     { icon: <FaJs />, name: "javascript" },
+    { icon: <FaPython />, name: "python" },
     { icon: <FaReact />, name: "reactjs" },
     { icon: <FaNodeJs />, name: "nodejs" },
     { icon: <SiNextdotjs />, name: "nextjs" },
     { icon: <SiTailwindcss />, name: "tailwind.css" },
     { icon: <FaFigma />, name: "figma" },
+    { icon: <SiTypescript />, name: "typescript" },
   ],
 };
 
