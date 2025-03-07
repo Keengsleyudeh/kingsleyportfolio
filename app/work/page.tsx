@@ -18,46 +18,112 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend project",
+    category: "Toucan Aviation",
     title: "Project 1",
     description:
-      "Developed a responsive clone of the Nike website to replicate its design and functionality",
+      "A web application for an aviation company where flights can be booked online.",
     stack: [
       { name: "ReactJs" },
-      { name: "TailwindCss" },
-      { name: "javascript" },
+      { name: "SCSS" },
+      { name: "Typescript" },
     ],
-    image: "/assets/work/thumb1.png",
-    live: "https://nike-five-snowy.vercel.app",
-    github: "https://github.com/ChikenduHillary/nike",
+    image: "/assets/frontend/toucan1.png",
+    live: "https://app.toucanaviationcorp.ai/",
+    github: "",
   },
   {
     num: "02",
-    category: "Solana Balance Checker",
+    category: "Fast Pizza",
     title: "Project 2",
     description:
-      "Built a tool to check and display the balance of Solana wallets.",
-    stack: [{ name: "NextJs" }, { name: "Shadcn" }, { name: "Typescript" }],
-    image: "/assets/work/thumb2.png",
-    live: "https://sol-balance.vercel.app/",
-    github: "https://github.com/ChikenduHillary/sol_balance",
+      "An online store where you can order different kinds of pizza.",
+    stack: [{ name:"ReactJs" }, { name: "Tailwind" }, { name: "JavaScript" }],
+    image: "/assets/frontend/pizza1.png",
+    live: "https://fast-react-pizza-pi-eight.vercel.app/",
+    github: "https://github.com/Keengsleyudeh/fast-react-pizza",
   },
   {
     num: "03",
-    category: "Threads Clone",
+    category: "Loop Studios",
     title: "Project 3",
     description:
-      " Developed a clone of the Threads application, focusing on social networking features.",
+      " Landing page for a music studio.",
     stack: [
-      { name: "NextJs" },
+      { name: "HTML" },
       { name: "TailwindCss" },
-      { name: "MongoDB" },
-      { name: "Clerk" },
-      { name: "Typescript" },
+      { name: "JavaScript" },
     ],
-    image: "/assets/work/thumb3.png",
-    live: "https://threads-kappa-lovat.vercel.app/",
-    github: "https://github.com/ChikenduHillary/Threads",
+    image: "/assets/frontend/loopstudio1.png",
+    live: "https://loopkeengstudios.vercel.app/",
+    github: "https://github.com/Keengsleyudeh/loopstudios",
+  },
+
+  {
+    num: "04",
+    category: "Wild Oasis",
+    title: "Project 4",
+    description:
+      " Web application dashbaord to manage a hotel suite and view analytics.",
+    stack: [
+      { name: "ReactJS" },
+      { name: "Styled Components" },
+      { name: "JavaScript" },
+      { name: "Supabase" },
+    ],
+    image: "/assets/frontend/wild2.png",
+    live: "https://the-wild-oasis-qpqr.vercel.app/",
+    github: "https://github.com/Keengsleyudeh/the-wild-oasis",
+  },
+
+  {
+    num: "05",
+    category: "WorldWise",
+    title: "Project 5",
+    description:
+      " A tour web application for tourists.",
+    stack: [
+      { name: "ReactJs" },
+      { name: "CSS" },
+      { name: "JavaScript" },
+      { name: "React Leaflet" },
+    ],
+    image: "/assets/frontend/worldwise2.png",
+    live: "https://worldwise-kings.vercel.app/",
+    github: "https://github.com/Keengsleyudeh/Worldwise",
+  },
+
+  {
+    num: "06",
+    category: "Shortly",
+    title: "Project 5",
+    description:
+      " Simple landing page.",
+    stack: [
+      { name: "HTML" },
+      { name: "TailwindCSS" },
+    ],
+    image: "/assets/frontend/shortly1.png",
+    live: "https://shortly-phi-wheat.vercel.app/",
+    github: "https://github.com/Keengsleyudeh/shortly",
+  },
+
+  //https://github.com/adrianhajdin/award-winning-website.git
+
+  {
+    num: "05",
+    category: "WorldWise",
+    title: "Project 5",
+    description:
+      " A tour web application for tourists.",
+    stack: [
+      { name: "ReactJs" },
+      { name: "CSS" },
+      { name: "JavaScript" },
+      { name: "React Leaflet" },
+    ],
+    image: "/assets/frontend/worldwise2.png",
+    live: "https://worldwise-kings.vercel.app/",
+    github: "https://github.com/Keengsleyudeh/Worldwise",
   },
 ];
 
