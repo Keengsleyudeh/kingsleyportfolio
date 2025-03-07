@@ -36,11 +36,7 @@ const about = {
     {
       fieldName: "Email",
       fieldValue: "keengsleyudeh@gmail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
+    }
   ],
 };
 
