@@ -108,23 +108,6 @@ const projects = [
   },
 
   //https://github.com/adrianhajdin/award-winning-website.git
-
-  {
-    num: "05",
-    category: "WorldWise",
-    title: "Project 5",
-    description:
-      " A tour web application for tourists.",
-    stack: [
-      { name: "ReactJs" },
-      { name: "CSS" },
-      { name: "JavaScript" },
-      { name: "React Leaflet" },
-    ],
-    image: "/assets/frontend/worldwise2.png",
-    live: "https://worldwise-kings.vercel.app/",
-    github: "https://github.com/Keengsleyudeh/Worldwise",
-  },
 ];
 
 const Page = () => {
