@@ -24,7 +24,7 @@ export default function Home() {
 
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <a href="/cv.pdf" download>
+              <a href="/kingsley-resume.pdf" download>
                 <Button
                   variant="outline"
                   size="lg"
