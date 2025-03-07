@@ -106,8 +106,6 @@ const projects = [
     live: "https://shortly-phi-wheat.vercel.app/",
     github: "https://github.com/Keengsleyudeh/shortly",
   },
-
-  //https://github.com/adrianhajdin/award-winning-website.git
 ];
 
 const Page = () => {
