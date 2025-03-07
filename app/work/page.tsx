@@ -106,7 +106,7 @@ const projects = [
     live: "https://shortly-phi-wheat.vercel.app/",
     github: "https://github.com/Keengsleyudeh/shortly",
   },
-
+];
 
 const Page = () => {
   const [project, setProject] = useState<any>(projects[0]);
