@@ -95,7 +95,7 @@ const projects = [
   {
     num: "06",
     category: "Shortly",
-    title: "Project 5",
+    title: "Project 6",
     description:
       " Designed an intuitive, responsive interface for shortening long URLs with seamless user experience.",
     stack: [
