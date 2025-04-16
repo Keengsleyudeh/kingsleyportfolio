@@ -21,7 +21,7 @@ const projects = [
     category: "Toucan Aviation",
     title: "Project 1",
     description:
-      "A web application for an aviation company where flights can be booked online.",
+      "Automated jet booking platform with location selection, jet browsing, and integrated payment system.",
     stack: [
       { name: "ReactJs" },
       { name: "SCSS" },
@@ -36,7 +36,7 @@ const projects = [
     category: "Fast Pizza",
     title: "Project 2",
     description:
-      "An online store where you can order different kinds of pizza.",
+      "Built a responsive app for browsing, ordering, prioritizing pizzas, with geolocation and cart functionality.",
     stack: [{ name:"ReactJs" }, { name: "Tailwind" }, { name: "JavaScript" }],
     image: "/assets/frontend/pizza1.png",
     live: "https://fast-react-pizza-pi-eight.vercel.app/",
@@ -47,7 +47,7 @@ const projects = [
     category: "Loop Studios",
     title: "Project 3",
     description:
-      " Landing page for a music studio.",
+      " Designed a responsive, visually appealing landing page showcasing advanced styling and seamless user experience.",
     stack: [
       { name: "HTML" },
       { name: "TailwindCss" },
@@ -63,7 +63,7 @@ const projects = [
     category: "Wild Oasis",
     title: "Project 4",
     description:
-      " Web application dashbaord to manage a hotel suite and view analytics.",
+      " A web app with integrated dashboard for managing a suite's cabin availability, bookings, and tracking guest departure schedules",
     stack: [
       { name: "ReactJS" },
       { name: "Styled Components" },
@@ -80,7 +80,7 @@ const projects = [
     category: "WorldWise",
     title: "Project 5",
     description:
-      " A tour web application for tourists.",
+      " Built a web app for exploring cities, booking destinations, with an interactive world map feature.",
     stack: [
       { name: "ReactJs" },
       { name: "CSS" },
@@ -97,7 +97,7 @@ const projects = [
     category: "Shortly",
     title: "Project 5",
     description:
-      " Simple landing page.",
+      " Designed an intuitive, responsive interface for shortening long URLs with seamless user experience.",
     stack: [
       { name: "HTML" },
       { name: "TailwindCSS" },
