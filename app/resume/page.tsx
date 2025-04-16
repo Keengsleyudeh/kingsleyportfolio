@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { SiTailwindcss, SiNextdotjs, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiPostman } from "react-icons/si";
 import {
   FaCss3,
   FaJs,
@@ -11,6 +11,8 @@ import {
   FaHtml5,
   FaFigma,
   FaPython,
+  FaGoogle,
+  FaGithub,
 } from "react-icons/fa";
 
 const about = {
@@ -31,7 +33,7 @@ const about = {
     },
     {
       fieldName: "Nationality",
-      fieldValue: "Nigeria",
+      fieldValue: "Nigerian",
     },
     {
       fieldName: "Email",
@@ -48,17 +50,22 @@ const experience = {
   items: [
     {
       company: "Ceed Venture Studio",
-      position: "Frontend Developer",
+      position: "Frontend Engineer",
       duration: "2024 - present",
     },
     {
       company: "Styloza",
-      position: "Lead Frontend Developer",
+      position: "Lead Frontend Engineer",
       duration: "2024",
     },
     {
       company: "Smart World Research Hub",
-      position: "Software Developer",
+      position: "Full-Stack Engineer",
+      duration: "2024",
+    },
+    {
+      company: "Cardioll",
+      position: "Frontend Engineer",
       duration: "2024",
     },
     {
@@ -113,7 +120,7 @@ const skills = {
 
     {
       name: "Tools and Technologies",
-      content: "Git, Docker",
+      content: "Git, Docker, Google Workspace, Postman",
     },
     {
       name: "Prototyping",
@@ -122,7 +129,7 @@ const skills = {
     {
       name: "Soft Skills",
       content:
-        "Problem-solving, Collaboration, Project Management, Communication",
+        "Problem-solving, Collaboration, Project Management, Communication, Leadership",
     },
   ],
   skillsList: [
@@ -135,7 +142,10 @@ const skills = {
     { icon: <SiNextdotjs />, name: "nextjs" },
     { icon: <SiTailwindcss />, name: "tailwind.css" },
     { icon: <FaFigma />, name: "figma" },
+    { icon: <FaGithub />, name: "github" },
+    { icon: <FaGoogle />, name: "google workspace" },
     { icon: <SiTypescript />, name: "typescript" },
+    { icon: <SiPostman />, name: "postman" },
   ],
 };
 
