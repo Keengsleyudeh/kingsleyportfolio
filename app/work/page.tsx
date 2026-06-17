@@ -18,8 +18,103 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Toucan Aviation",
+    category: "Creative ToolBox",
     title: "Project 1",
+    description:
+      "Unified creative dashboard with AI-powered tools, asset management, and a points-based studio experience.",
+    stack: [
+      { name: "ReactJs" },
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind" },
+    ],
+    image: "/assets/frontend/creativetoolbox.png",
+    live: "https://beta.creativetoolbox.ai/app/home",
+    github: "",
+  },
+  {
+    num: "02",
+    category: "Fashion Weaver",
+    title: "Project 2",
+    description:
+      "AI fashion design platform with asset library, text-to-image generation, and virtual try-on workflows.",
+    stack: [
+      { name: "ReactJs" },
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind" },
+    ],
+    image: "/assets/frontend/fashionweaver.png",
+    live: "https://fashion.creativetoolbox.ai/dashboard",
+    github: "",
+  },
+  {
+    num: "03",
+    category: "Story Teller",
+    title: "Project 3",
+    description:
+      "Story discovery and creation platform with curated narratives, explore feeds, and author-driven content.",
+    stack: [
+      { name: "ReactJs" },
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind" },
+    ],
+    image: "/assets/frontend/storyteller.png",
+    live: "https://story.creativetoolbox.ai/home",
+    github: "",
+  },
+  {
+    num: "04",
+    category: "Haven",
+    title: "Project 4",
+    description:
+      "Elegant interior decor landing page with refined typography, immersive imagery, and collection-focused UX.",
+    stack: [
+      { name: "Next.js" },
+      { name: "ReactJs" },
+      { name: "TypeScript" },
+      { name: "Tailwind" },
+    ],
+    image: "/assets/frontend/haven.png",
+    live: "https://haven-psi.vercel.app/",
+    github: "",
+  },
+  {
+    num: "05",
+    category: "RideTEGO",
+    title: "Project 5",
+    description:
+      "Ride-sharing web platform with trip booking, fare estimates, driver/rider flows, and business onboarding.",
+    stack: [
+      { name: "ReactJs" },
+      { name: "JavaScript" },
+      { name: "CSS" },
+    ],
+    image: "/assets/frontend/ridetego.png",
+    live: "https://www.ridetego.com/",
+    github: "",
+  },
+  {
+    num: "06",
+    category: "WESOnline",
+    title: "Project 6",
+    description:
+      "Skills marketplace connecting learners, mentors, institutions, and employers for practical career growth.",
+    stack: [
+      { name: "Next.js" },
+      { name: "ReactJs" },
+      { name: "TypeScript" },
+      { name: "Tailwind" },
+    ],
+    image: "/assets/frontend/wesonline.png",
+    live: "https://wesonline.ng/",
+    github: "",
+  },
+  {
+    num: "07",
+    category: "Toucan Aviation",
+    title: "Project 7",
     description:
       "Automated jet booking platform with location selection, jet browsing, and integrated payment system.",
     stack: [
@@ -32,9 +127,9 @@ const projects = [
     github: "",
   },
   {
-    num: "02",
+    num: "08",
     category: "Fast Pizza",
-    title: "Project 2",
+    title: "Project 8",
     description:
       "Built a responsive app for browsing, ordering, prioritizing pizzas, with geolocation and cart functionality.",
     stack: [{ name:"ReactJs" }, { name: "Tailwind" }, { name: "JavaScript" }],
@@ -43,9 +138,9 @@ const projects = [
     github: "https://github.com/Keengsleyudeh/fast-react-pizza",
   },
   {
-    num: "03",
+    num: "09",
     category: "Loop Studios",
-    title: "Project 3",
+    title: "Project 9",
     description:
       " Designed a responsive, visually appealing landing page showcasing advanced styling and seamless user experience.",
     stack: [
@@ -59,9 +154,9 @@ const projects = [
   },
 
   {
-    num: "04",
+    num: "10",
     category: "Wild Oasis",
-    title: "Project 4",
+    title: "Project 10",
     description:
       " A web app with integrated dashboard for managing a suite's cabin availability, bookings, and tracking guest departure schedules",
     stack: [
@@ -76,9 +171,9 @@ const projects = [
   },
 
   {
-    num: "05",
+    num: "11",
     category: "WorldWise",
-    title: "Project 5",
+    title: "Project 11",
     description:
       " Built a web app for exploring cities, booking destinations, with an interactive world map feature.",
     stack: [
@@ -93,9 +188,9 @@ const projects = [
   },
 
   {
-    num: "06",
+    num: "12",
     category: "Shortly",
-    title: "Project 6",
+    title: "Project 12",
     description:
       " Designed an intuitive, responsive interface for shortening long URLs with seamless user experience.",
     stack: [
