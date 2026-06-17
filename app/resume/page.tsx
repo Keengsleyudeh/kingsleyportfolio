@@ -29,7 +29,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "4+ Years",
+      fieldValue: "5 Years",
     },
     {
       fieldName: "Nationality",
@@ -46,12 +46,12 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-"Results-driven Frontend Developer with 4+ years of experience building scalable, high-performance websites, web applications and PWAs. Proficient in React, Next.js, TypeScript, and JavaScript, with expertise in state management, UI frameworks, and performance optimization. Experienced in integrating APIs, maintaining design consistency, and enhancing user experience",
+"Results-driven Software Developer with 5 years of experience building scalable, high-performance websites, web applications and PWAs. Proficient in React, Next.js, TypeScript, and JavaScript, with expertise in state management, UI frameworks, and performance optimization. Experienced in integrating APIs, maintaining design consistency, and enhancing user experience",
   items: [
     {
       company: "Ceed Venture Studio",
-      position: "Frontend Engineer",
-      duration: "2024 - present",
+      position: "Software Developer",
+      duration: "2024 - 2026",
     },
     {
       company: "Styloza",
