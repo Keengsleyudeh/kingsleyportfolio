@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          <div className="text-center xl:text-left order-2 xl:order-none">
+        <div className="flex flex-col md:flex-row items-center justify-between md:pt-8 md:pb-24">
+          <div className="text-center md:text-left order-2 md:order-none">
             <span className="text-xl">Software Engineer</span>
             <h1 className="h1 mb-6">
               Hello I&apos;m <br />{" "}
@@ -23,7 +23,7 @@ export default function Home() {
             </p>
 
             {/* btn and socials */}
-            <div className="flex flex-col xl:flex-row items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
               <a href="/kingsley-resume.pdf" download>
                 <Button
                   variant="outline"
@@ -34,7 +34,7 @@ export default function Home() {
                   <FiDownload />
                 </Button>
               </a>
-              <div className="mb-8 xl:mb-0">
+              <div className="mb-8 md:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
                   iconStyles="w-9 h-9 flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500 border border-accent rounded-full"
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
 
           {/* Photo */}
-          <div className="order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="order-1 md:order-none mb-8 md:mb-0">
             <Photo />
           </div>
         </div>

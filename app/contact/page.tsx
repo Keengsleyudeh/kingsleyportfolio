@@ -107,8 +107,8 @@ const Page = () => {
       className="py-6"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row gap-[30px]">
-          <div className="xl:w-[54%] order-2 xl:order-none">
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <div className="md:w-[54%] order-2 md:order-none">
             <form
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
               onSubmit={handleSubmit}
@@ -197,11 +197,11 @@ const Page = () => {
             </form>
           </div>
 
-          <div className="flex-1 flex items-center xl:justify-center order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="flex-1 flex items-center md:justify-center order-1 md:order-none mb-8 md:mb-0">
             <ul className="flex flex-col gap-10">
               {info.map((item) => (
                 <li key={item.title} className="flex items-center gap-4">
-                  <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center">
+                  <div className="w-[52px] h-[52px] md:w-[72px] md:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center">
                     <div className="text-[28px]">{item.icon}</div>
                   </div>
                   <div className="flex-1">

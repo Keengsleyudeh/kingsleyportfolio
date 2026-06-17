@@ -218,11 +218,11 @@ const Page = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
+      className="min-h-[80vh] flex flex-col justify-center py-12 md:px-0"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row xl:gap-[30px]">
-          <div className="w-full xl:w-1/2 xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
+        <div className="flex flex-col md:flex-row md:gap-[30px]">
+          <div className="w-full md:w-1/2 md:h-[460px] flex flex-col md:justify-between order-2 md:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project.num}
@@ -268,11 +268,11 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="w-full xl:w-1/2">
+          <div className="w-full md:w-1/2">
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
-              className="xl:h-[520px] mb-12"
+              className="md:h-[520px] mb-12"
               onSlideChange={handleSlideChange}
             >
               {projects.map((project) => (
@@ -292,7 +292,7 @@ const Page = () => {
               ))}
 
               <WorkSliderBtns
-                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%-22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%-22px)] md:bottom-0 z-20 w-full justify-between md:w-max md:justify-none"
                 btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
               />
             </Swiper>

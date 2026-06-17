@@ -26,20 +26,20 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
+    <section className="pt-4 pb-12 md:pt-0 md:pb-0">
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
+        <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto md:max-w-none">
           {stats.map((item) => (
             <div
               key={item.text}
-              className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
+              className="flex-1 flex gap-4 items-center justify-center md:justify-start"
             >
               {item.text !== "Code commits" ? (
                 <CountUp
                   end={item.num}
                   duration={5}
                   delay={2}
-                  className="text-4xl xl:text-6xl font-extrabold"
+                  className="text-4xl md:text-6xl font-extrabold"
                 />
               ) : (
                 <>
@@ -47,7 +47,7 @@ const Stats = () => {
                     end={item.num}
                     duration={5}
                     delay={2}
-                    className="text-4xl xl:text-6xl font-extrabold"
+                    className="text-4xl md:text-6xl font-extrabold"
                   />
                   <span className="text-6xl font-extrabold">+</span>
                 </>

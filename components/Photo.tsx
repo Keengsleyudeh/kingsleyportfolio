@@ -21,7 +21,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.3, ease: "easeIn" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] md:w-[498px] md:h-[498px] mix-blend-lighten absolute"
         >
           <Image
             src="/assets/cropped.png"
@@ -35,7 +35,7 @@ const Photo = () => {
 
         {/* circle */}
         <motion.svg
-          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+          className="w-[300px] md:w-[506px] h-[300px] md:h-[506px]"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"

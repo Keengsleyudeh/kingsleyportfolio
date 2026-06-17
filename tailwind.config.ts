@@ -14,20 +14,22 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
         "2xl": "1400px",
       },
-    },
-    screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "960px",
-      xl: "1200px",
-      "2xl": "1400px",
     },
     fontFamily: {
       primary: "var(--font-jetbrainsMono)",
     },
     extend: {
+      screens: {
+        lg: "960px",
+        xl: "1200px",
+        "2xl": "1400px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -46,7 +46,7 @@ const services = [
 
 const Page = () => {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+    <section className="min-h-[80vh] flex flex-col justify-center py-12 md:py-0">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
