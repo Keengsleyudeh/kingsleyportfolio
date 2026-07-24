@@ -49,9 +49,14 @@ const experience = {
 "Results-driven Software Developer with 5 years of experience building scalable, high-performance websites, web applications and PWAs. Proficient in React, Next.js, TypeScript, and JavaScript, with expertise in state management, UI frameworks, and performance optimization. Experienced in integrating APIs, maintaining design consistency, and enhancing user experience",
   items: [
     {
+      company: "Lewisham Multi Solutions",
+      position: "Full Stack Developer",
+      duration: "July 2024 – Present",
+    },
+    {
       company: "Ceed Venture Studio",
-      position: "Software Developer",
-      duration: "2024 - 2026",
+      position: "Software Engineer",
+      duration: "Sep 2024 – Jan 2026",
     },
     {
       company: "Styloza",
